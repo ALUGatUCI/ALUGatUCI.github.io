@@ -14,14 +14,12 @@
     <body>
         <a href="index.html"><img src="images/ALUG@UCI_Logo.png" width="600", height="350" style="display: block; margin-left: auto; margin-right: auto;"></a>
         <br></br>
-        <table style="margin-left: auto; margin-right: auto;">
-            <tr>
-                <th><a href="index.html">Home</a></th>
-                <th><a href="about.html">About</a></th>
-                <th><a href="involved.html">Get Involved</a></th>
-                <th><a href="contact.html">Contact</a></th>
-            </tr>
-        </table>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About</a>
+            <a href="involved.html">Get Involved</a>
+            <a href="contact.html">Contact</a>
+        </div>
 
         <h1>About Us</h1>
         <p>ALUG@UCI (Anteater Linux User Group at UC Irvine) is a student organization dedicated to promoting the use of Linux and open source software on campus. We welcome students of all backgrounds and experience levels to join us in learning, sharing, and collaborating on all things Linux!</p>
@@ -29,34 +27,69 @@
         <hr>
 
         <h2>Meet the Team</h2>
-        <table style="margin-left: auto; margin-right: auto;">
-            <tr>
-                <th>Image</th>
-                <th>Name</th>
-                <th>Role</th>
-                <th>Major</th>
-                <th>Preferred Distro</th>
-                <th>Device(s)</th>
-                <th>Fun Fact</th>
-            </tr>
-            <tr>
-                <td><img src="images/chris_r.png" alt="Chris Rios" style="display: block; margin-left: auto; margin-right: auto;" width="248"></td>
-                <td>Chris Rios</td>
-                <td>President</td>
-                <td>Computer Science B.S.</td>
-                <td>Pop!_OS</td>
-                <td>System76 Adder WS and Steam Deck</td>
-                <td>I first gained the reputation as the "Linux-obsessed nerd" back in high school</td>
-            </tr>
-            <tr>
-                <td><img src="images/kasra.jpg" alt="Kasra Moayedi" style="display: block; margin-left: auto; margin-right: auto;" width="248"></td>
-                <td>Kasra Moayedi</td>
-                <td>Event Coordinator</td>
-                <td>Computer Science and Engineering B.S.</td>
-                <td>EndeavourOS</td>
-                <td>PC, Thinkpad</td>
-                <td>I once hopped between 3 different distros in one night before landing on EndeavourOS!</td>
-            </tr>
-        </table>
+        <div style="display: flex; justify-content: center; gap: 5px; max-width: 1200px; margin: 0 auto;">
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <img src="images/chris_r.png" alt="Chris Rios" width="248" style="display: block; margin-left: auto; margin-right: auto;">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Name</th>
+                    <td>Chris Rios</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Role</th>
+                    <td>President</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Major</th>
+                    <td>Computer Science B.S.</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Preferred Distro</th>
+                    <td>Pop!_OS</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Device(s)</th>
+                    <td>System76 Adder WS and Steam Deck</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Fun Fact</th>
+                    <td>I first gained the reputation as the "Linux-obsessed nerd" back in high school</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <img src="images/kasra.jpg" alt="Kasra Moayedi" width="248" style="display: block; margin-left: auto; margin-right: auto;">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Name</th>
+                    <td>Kasra Moayedi</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Role</th>
+                    <td>Event Coordinator</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Major</th>
+                    <td>Computer Science and Engineering B.S.</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Preferred Distro</th>
+                    <td>EndeavourOS</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Device(s)</th>
+                    <td>PC, Thinkpad</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left;">Fun Fact</th>
+                    <td>I once hopped between 3 different distros in one night before landing on EndeavourOS!</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
