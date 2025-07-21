@@ -67,7 +67,6 @@ th, td {
 
 ul {
     color: white;
-    list-style-position: inside;
     text-align: center;
     padding-left: 0;
     font-family: "Ubuntu Mono", monospace;
@@ -75,9 +74,10 @@ ul {
 
 li {
     color: white;
-    display: inline-block;
+    display: list-item;
+    list-style-position: inside;
     text-align: center;
-    margin: 0 10px;
+    margin: 10px 0;
     font-family: "Ubuntu Mono", monospace;
 }
 
