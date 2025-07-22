@@ -92,7 +92,7 @@ a:link {
 }
 
 a:visited {
-    color: yellow;
+    color: #ffc924;
 }
 
 #notice {
@@ -126,8 +126,8 @@ a:visited {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: navy;
-    color: yellow;
+    background-color: #0065a5;
+    color: #ffc924;
 }
 
 /* Navbar container */
