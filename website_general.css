@@ -85,6 +85,15 @@ hr {
     max-width: 800px;
 }
 
+
+a:link {
+    color: #0065a5;
+}
+
+a:visited {
+    color: yellow;
+}
+
 #notice {
     font-size: xx-large;
     color: yellow;
