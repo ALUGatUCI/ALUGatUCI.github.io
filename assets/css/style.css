@@ -138,6 +138,11 @@ a:visited {
   color: #000;
 }
 
+.btn.instagram {
+  background-color: #f940d6;
+  color: #fff
+}
+
 .btn.calendar {
   background: #388e3c;
   color: #fff;
