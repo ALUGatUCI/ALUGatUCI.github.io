@@ -63,7 +63,7 @@ a:visited {
   color: #ffc924;
 }
 
-#notice {
+#news {
   font-size: 2rem;
   color: yellow;
 }
@@ -140,6 +140,11 @@ a:visited {
 
 .btn.instagram {
   background-color: #f940d6;
+  color: #fff
+}
+
+.btn.bluesky {
+  background-color: #0b86fe;
   color: #fff
 }
 
