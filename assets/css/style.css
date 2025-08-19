@@ -188,3 +188,9 @@ a:visited {
     min-width: 0;
   }
 }
+
+.cards-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr; /* defaults the container to single column */
+}
