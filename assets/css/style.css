@@ -41,6 +41,10 @@ table {
   background: transparent;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 th,
 td {
   border: 1px solid #fff;
