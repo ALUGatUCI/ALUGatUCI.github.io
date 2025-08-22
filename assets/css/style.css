@@ -152,6 +152,11 @@ a:visited {
   color: #fff
 }
 
+.btn.mastodon {
+  background-color: #6261f9;
+  color: #fff
+}
+
 .btn.calendar {
   background: #388e3c;
   color: #fff;
